@@ -1,0 +1,40 @@
+---
+name: テレビ紹介ナビ（iroiroblog.net）
+description: 100万ドル作戦プロダクト#1。TV番組紹介商品メディア。WordPress・Cocoon・アドセンス承認済み。
+type: project
+---
+
+## テレビ紹介ナビ（iroiroblog.net）
+
+**サイト:** https://iroiroblog.net/（WordPress・Cocoon・Simple Navyスキン）
+**X:** https://x.com/tv_shokai_navi（@tv_shokai_navi）
+**コンセプト:** TV番組で紹介される商品の記事を放映前に仕込み、検索スパイクを独占
+**ターゲット:** 40代以上のTV視聴者（可処分所得高い）
+**収益:** Googleアドセンス（承認済み）+ 楽天アフィリエイト（登録済み）+ ASP（未登録）
+
+**仕組み:**
+番組表事前取得 → 商品・テーマ抽出 → 速報記事を放映前に公開 → 放映後に検索スパイク → アドセンス+ASPで収益化
+
+**監視番組:** マツコの知らない世界 / サタプラ / ヒルナンデス(3/27最終回) / 王様のブランチ / がっちりマンデー / ZIP! / めざましテレビ / ラヴィット! / カンブリア宮殿
+
+**スキル:**
+- `tv-scraper` — 番組表スクレイパー（scan/realtime/weekly）
+- `tv-article-create` — 記事生成（speed/review/matome）
+
+**作業ディレクトリ:** `~/projects/tv-media/`
+**設定:** `config/tv-media.yaml`
+
+**公開済み記事（5本・2026-03-17〜18）:**
+- 冷凍シュウマイランキング (ID:1324)
+- ヒルナンデス つくば旅 (ID:1328)
+- マツコ 氷彫刻の世界 (ID:1357)
+- マツコ 昭和レトロ喫茶店 (ID:1358)
+- ZIP! BASEGATE横浜関内 (ID:1364)
+
+**未完了:**
+- BASEGATE Instagram埋め込み（oEmbedキャッシュ問題）
+- Amazonアソシエイト・A8.net等ASP登録
+- フライパン深型レビュー記事（サタプラ・高単価）
+
+**Why:** 100万ドル作戦の第1プロダクト。TV放映スパイクを活かしたアドセンス+アフィリエイト収益化。
+**How to apply:** 記事作成時はCLAUDE.mdのテレビ番組系記事ルールに従う。画像必須・捏造禁止・出典明記。
